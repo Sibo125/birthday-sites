@@ -1,0 +1,142 @@
+/*
+Challenge:
+Change the site's background into a gradient that goes
+from blue at the top to pink at the bottom.
+*/
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(skyblue, hotpink);
+    background-image: url("images/confetti.gif");
+    color: hotpink;
+}
+
+h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+h1 {
+    text-shadow: 0 0 2px black;
+    font-size: 40px;
+}
+
+#nametag {
+      font-family: "Bitcount Prop Double Ink", system-ui;
+      font-size: 75px;
+      text-shadow: 0 0 5px blueviolet;
+
+}
+
+#bff-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    border: 12px dotted #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin: 0px;
+
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid yellow;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-carnival:hover {
+    background-image: url("images/carnival.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-mom:hover {
+    background-image: url("images/DEVOTED.gif");
+}
+
+#gift-img-sister:hover {
+    background-image: url("images/SISTER.gif");
+}
+
+#gift-img-family:hover {
+    background-image: url("images/FAMILY.gif");
+}
+
+#gift-img-fireman:hover {
+    background-image: url("images/fireman.webp");
+}
+
+#gift-img-rihanna:hover {
+    background-image: url("images/rihanna.gif");
+}
+
+#gift-img-hug:hover {
+    background-image: url("images/hug.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/carnival.webp");
+}
+
+#footer {
+    font-style: italic;
+    width: 500px;
+    margin: 40px auto 0px;
+}
+
+a {
+    color: blueviolet;
+    font-size: 10px;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
